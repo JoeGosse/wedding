@@ -52,7 +52,7 @@ table {
 /** { outline: 1px solid black; }*/
 
 body {
-	background: #000033;
+	background: #faf0ed;
 }
 
 #nav {
@@ -64,7 +64,7 @@ body {
 	padding-bottom: 40px;
 	padding-right:70px;
 	min-width: 950px;
-	background: #000033;
+	background: white;
 	z-index: 3;
 }
 
@@ -128,12 +128,12 @@ li {
 
 a {
 	text-decoration: none;
-	color: #ffffff;
+	color: #000033;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #0808fe;
+	color: #4456da;
 }
 
 textarea {
@@ -146,6 +146,11 @@ textarea {
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
+	font-size: 15px;
+}
+
+textarea:focus {
+	outline:none;
 }
 
 #main-area {
@@ -156,36 +161,39 @@ textarea {
 #center-text {
 	position: fixed;
 	left: 70px;
-	top: 500px;
+	top: 65%;
 	z-index: 2;
 }
 
 #center-text li {
-	color: white;
+	color: black;
+	font-size: 50px;
+	font-weight: 300;
 }
 
 .ss-form-desc {
-	margin-left: 50px;
+	margin-left: 210px;
 	margin-top: 200px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 30px;
-	font-weight: 300;
+	font-weight: 200;
 	color: black;
 }
 
 form {
-	margin-left: 50px;
-	margin-top: 20px;
+	margin-left: 210px;
+	margin-top: 200px;
 }
 
 .info-area {
-	margin-left: 50px;
+	margin-left: 210px;
 	margin-top: 200px;
 }
 
 .info-area li {
 	line-height: 150%;
-	font-size: 25px;
+	font-size: 30px;
+	font-weight: 200;
 }
 
 .info-area a {
@@ -198,11 +206,22 @@ form {
 }
 
 .ss-form-question {
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 #name {
 	height: 120px;
+	padding-bottom: 15px;
+}
+
+input {
+	margin-top: 10px;
+	border-color: black;
+	border-width: 1px;
+}
+
+input:focus {
+    outline:none;
 }
 
 .ss-choice-item {
@@ -211,15 +230,15 @@ form {
 
 .ss-q-item-label {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 25px;
-	font-weight: 300;
+	font-size: 30px;
+	font-weight: 200;
 	color: black;
 }
 
 .ss-choice-label {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 25px;
-	font-weight: 300;
+	font-size: 23px;
+	font-weight: 200;
 	color: black;
 }
 
@@ -228,6 +247,15 @@ form {
 	font-size: 15px;
 	font-weight: 200;
 	color: black;
+}
+
+.ss-q-short {
+	height: 30px;
+	width: 100px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 15px;
 }
 
 #ss-submit {
@@ -242,8 +270,14 @@ form {
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
+	width: 200px;
+	height: 30px;
 }
 
 #ss-submit:hover {
-	background: #0808fe;
+	background: #4456da;
+}
+
+.spacer {
+	height: 25px;
 }
