@@ -27,7 +27,12 @@
 <div>
 
 
-<form action="https://docs.google.com/forms/d/1lcj2aA61hnllJNZpHVZe_u5Nr-rrGaWgagIzkkewX2M/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='http://joemarie.info/thankyou.html';}"></iframe>
+<form action="https://docs.google.com/forms/d/1lcj2aA61hnllJNZpHVZe_u5Nr-rrGaWgagIzkkewX2M/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
 	<ol role="list" class="ss-question-list" style="padding-left: 0">
 	<div class="ss-form-question errorbox-good" id="name" role="listitem">
 		<div dir="ltr" class="ss-item  ss-paragraph-text">
@@ -35,11 +40,10 @@
 				<label class="ss-q-item-label" for="entry_2046987478">
 					<div class="ss-q-title">Name(s)
 					</div>
-					<div class="ss-q-help ss-secondary-text" dir="ltr">(Tell us who you are)
+					<div class="ss-q-help ss-secondary-text" dir="ltr">Family, significant others, and +1s all welcome
 					</div>
 				</label>
-				<textarea name="entry.2046987478" rows="8" cols="0" class="ss-q-long" id="entry_2046987478" dir="auto" aria-label="Name(s) (Tell us who you are) ">
-				</textarea>
+				<textarea name="entry.2046987478" rows="8" cols="0" class="ss-q-long" id="entry_2046987478" dir="auto" aria-label="Name(s) (Tell us who you are) "></textarea>
 				<div class="error-message" id="130781429_errorMessage">
 				</div>
 			</div>

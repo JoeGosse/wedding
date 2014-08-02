@@ -247,6 +247,7 @@ input:focus {
 	font-size: 15px;
 	font-weight: 200;
 	color: black;
+	margin-top: 5px;
 }
 
 .ss-q-short {
