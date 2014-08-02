@@ -51,14 +51,17 @@ table {
 
 /** { outline: 1px solid black; }*/
 
+body {
+	background: #000033;
+}
 
 #nav {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	padding-right:70px;
 	min-width: 950px;
 	background: #000033;
@@ -68,13 +71,25 @@ table {
 #logo-small {
 	float: left;
 	margin-left: 70px;
-	padding-top: 14px;
+	padding-top: 3px;
 }
 
 #nav-elements {
+	padding-top: 15px;
 	float: right;
 	text-align: right;
 }
+
+#nav-elements li {
+	display: inline;
+	padding-right: 25px;
+}
+
+#austin {
+	width: 100%;
+	min-width: 1250px;
+}
+
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 125px;
@@ -94,7 +109,7 @@ h3 {
 	font-size: 53px;
 	font-weight: 700;
 	display: inline;
-	color: black;
+	color: white;
 }
 
 h4 {
@@ -107,8 +122,8 @@ h4 {
 li {
 	padding: 0px;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 80px;
-	font-weight: 700;
+	font-size: 30px;
+	font-weight: 300;
 }
 
 a {
@@ -118,7 +133,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: black;
+	color: #0808fe;
 }
 
 textarea {
@@ -133,9 +148,65 @@ textarea {
 	border-radius: 4px;
 }
 
-#ss-form {
+#main-area {
+	clear: both;
+	min-width: 1250px;
+}
+
+#center-text {
+	position: fixed;
+	left: 70px;
+	top: 500px;
+	z-index: 2;
+}
+
+#center-text li {
+	color: white;
+}
+
+.ss-form-desc {
 	margin-left: 50px;
 	margin-top: 200px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: black;
+}
+
+form {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.info-area {
+	margin-left: 50px;
+	margin-top: 200px;
+}
+
+.info-area li {
+	line-height: 150%;
+	font-size: 25px;
+}
+
+.info-area a {
+	color: black;
+}
+
+.info-area a:hover {
+	text-decoration: none;
+	color: #0808fe;
+}
+
+.ss-form-question {
+	padding-top: 30px;
+}
+
+#name {
+	height: 120px;
+}
+
+.ss-choice-item {
+	height: 30px;
 }
 
 .ss-q-item-label {
@@ -157,4 +228,22 @@ textarea {
 	font-size: 15px;
 	font-weight: 200;
 	color: black;
+}
+
+#ss-submit {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: white;
+	background: #000033;
+	border: none;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#ss-submit:hover {
+	background: #0808fe;
 }

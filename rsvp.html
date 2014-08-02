@@ -4,30 +4,81 @@
 	<meta charset="UTF-8">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="main.css" type="text/css">
+	<link rel="stylesheet" href="pages.css" type="text/css">
 	<title>RSVP</title>
 </head>
+<body>
+<header>
+			<div id="nav">
+				<div id="logo-small">
+					<h3><a href="index.html">J & M</a></h3>
+				</div>
 
-<form action="https://docs.google.com/forms/d/1lcj2aA61hnllJNZpHVZe_u5Nr-rrGaWgagIzkkewX2M/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
-<div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item  ss-paragraph-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_2046987478"><div class="ss-q-title">Name(s)
-</div>
-<div class="ss-q-help ss-secondary-text" dir="ltr">(Tell us who you are)</div></label>
-<textarea name="entry.2046987478" rows="8" cols="0" class="ss-q-long" id="entry_2046987478" dir="auto" aria-label="Name(s) (Tell us who you are) "></textarea>
-<div class="error-message" id="130781429_errorMessage"></div>
-</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item  ss-radio"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_795235976"><div class="ss-q-title">Are you in?
-</div>
-</label>
+				<div id="nav-elements">
+					<ul>
+						<li><a href="rsvp.html">RSVP</a></li>
+						<li><a href="schedule.html">SCHEDULE</a></li>
+						<li><a href="where.html">WHERE TO STAY</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
 
-<ul class="ss-choices" role="radiogroup" aria-label="Are you in?  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1181663158" value="Yes, can&#39;t wait to dance with you!" id="group_1181663158_1" role="radio" class="ss-q-radio" aria-label="Yes, can&#39;t wait to dance with you!"></span>
-<span class="ss-choice-label">Yes, can&#39;t wait to dance with you!</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1181663158" value="No, but we&#39;ll be dancing in our living room in your honor" id="group_1181663158_2" role="radio" class="ss-q-radio" aria-label="No, but we&#39;ll be dancing in our living room in your honor"></span>
-<span class="ss-choice-label">No, but we&#39;ll be dancing in our living room in your honor</span>
-</label></li></ul>
-<div class="error-message" id="795235976_errorMessage"></div>
-</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div>
+<div class="ss-form-desc ss-no-ignore-whitespace">Can you join us on November 15th?</div>
+
+<form action="https://docs.google.com/forms/d/1lcj2aA61hnllJNZpHVZe_u5Nr-rrGaWgagIzkkewX2M/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+	<ol role="list" class="ss-question-list" style="padding-left: 0">
+	<div class="ss-form-question errorbox-good" id="name" role="listitem">
+		<div dir="ltr" class="ss-item  ss-paragraph-text">
+			<div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_2046987478">
+					<div class="ss-q-title">Name(s)
+					</div>
+					<div class="ss-q-help ss-secondary-text" dir="ltr">(Tell us who you are)
+					</div>
+				</label>
+				<textarea name="entry.2046987478" rows="8" cols="0" class="ss-q-long" id="entry_2046987478" dir="auto" aria-label="Name(s) (Tell us who you are) ">
+				</textarea>
+				<div class="error-message" id="130781429_errorMessage">
+				</div>
+			</div>
+		</div>
+	</div> 
+	<div class="ss-form-question errorbox-good" role="listitem">
+		<div dir="ltr" class="ss-item  ss-radio">
+			<div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_795235976">
+					<div class="ss-q-title">Are you in?
+					</div>
+				</label>
+
+				<ul class="ss-choices" role="radiogroup" aria-label="Are you in?  ">
+					<li class="ss-choice-item">
+						<label>
+							<span class="ss-choice-item-control goog-inline-block">
+								<input type="radio" name="entry.1181663158" value="Yes, can&#39;t wait to dance with you!" id="group_1181663158_1" role="radio" class="ss-q-radio" aria-label="Yes, can&#39;t wait to dance with you!">
+							</span>
+							<span class="ss-choice-label">Yes, can&#39;t wait to dance with you!
+							</span>
+						</label>
+					</li> 
+					<li class="ss-choice-item">
+						<label>
+							<span class="ss-choice-item-control goog-inline-block">
+								<input type="radio" name="entry.1181663158" value="No, but we&#39;ll be dancing in our living room in your honor" id="group_1181663158_2" role="radio" class="ss-q-radio" aria-label="No, but we&#39;ll be dancing in our living room in your honor">
+							</span>
+							<span class="ss-choice-label">No, but we&#39;ll be dancing in our living room in your honor
+							</span>
+						</label>
+					</li>
+				</ul>
+				<div class="error-message" id="795235976_errorMessage">
+				</div>
+			</div>
+		</div>
+	</div> 
+	<div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_1941321910"><div class="ss-q-title">How many seats should we save for you?
 </div>
@@ -51,6 +102,8 @@
 <input type="hidden" name="fbzx" value="284560614593106248">
 
 <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-<input type="submit" name="submit" value="Submit" id="ss-submit">
+<input type="submit" name="submit" value="Let's Do This" id="ss-submit">
 </td>
 </tr></tbody></table></div></ol></form>
+</div>
+</body>
