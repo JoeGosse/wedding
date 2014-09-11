@@ -205,6 +205,10 @@ form {
 	color: #0808fe;
 }
 
+#sched-width {
+	padding-right: 100px;
+}
+
 .ss-form-question {
 	padding-top: 20px;
 }
